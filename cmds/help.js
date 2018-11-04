@@ -5,12 +5,15 @@ const menus = {
     team .............. show current team members
     version ............ show package version
     help ............... show help menu for a command
+    
+    Created by Caelin Sutch '20 Marketing and Publications Lead, Software Lead
     `,
 
     team: `
     outside today <options>
 
-    --class, -c [year] ..... print only class of [year]
+    --class, -c [year] ..... print only class of [year] 
+        Available Years: 2018
     `,
 };
 
