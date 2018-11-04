@@ -10,7 +10,7 @@ const menus = {
     `,
 
     team: `
-    outside today <options>
+    rovotics team <options>
 
     --class, -c [year] ..... print only class of [year] 
         Available Years: 2018
@@ -20,7 +20,7 @@ const menus = {
 module.exports = (args) => {
     const subCmd = args._[0] === 'help'
         ? args._[1]
-        : args._[0]
+        : args._[0];
 
     console.log(menus[subCmd] || menus.main)
-}
+};

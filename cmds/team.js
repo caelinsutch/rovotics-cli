@@ -27,5 +27,10 @@ const teamMembers = {
 }
 
 module.exports = (args) => {
-    console.log('Team member list')
+    // The subcommand is set to whatever the next command is in rovotics team [command]
+    const subCmd = args._[0] === 'team'
+    ? args._[1]
+    : args._[0];
+
+    console.log(teamMembers[subCmd] || "subcommand not found")
 };
