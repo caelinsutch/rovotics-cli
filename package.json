@@ -1,0 +1,14 @@
+{
+  "name": "Rovotics",
+  "version": "1.0.0",
+  "description": "A CLI app that gives you information about Rovotics, the Jesuit High School Underwater Robotics Team",
+  "license": "MIT",
+  "bin": {
+    "rovotics": "bin/rovotics"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
