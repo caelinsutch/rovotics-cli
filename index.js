@@ -14,10 +14,10 @@ module.exports = () => {
     }
 
     switch (cmd) {
-        case 'team':
+        case 'team' || '-t':
             require('./cmds/team')(args);
             break;
-        case 'version':
+        case 'version' || '-v':
             require('./cmds/version')(args);
             break;
         case 'help':

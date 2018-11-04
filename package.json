@@ -23,6 +23,8 @@
   "scripts": {},
   "devDependencies": {},
   "dependencies": {
+    "colors": "^1.3.2",
+    "figlet": "^1.2.1",
     "minimist": "^1.2.0"
   }
 }
