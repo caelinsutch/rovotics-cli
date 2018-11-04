@@ -1,2 +1,2 @@
 # rovotics-cli
-A CLI app that gives you the weather forecast
+A CLI app that gives you information about Rovotics, the Jesuit High School Underwater Robotics Team
