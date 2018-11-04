@@ -32,5 +32,5 @@ module.exports = (args) => {
     ? args._[1]
     : args._[0];
 
-    console.log(teamMembers[subCmd] || "subcommand not found")
+    console.log(teamMembers[subCmd] || "year not found")
 };

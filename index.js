@@ -17,6 +17,9 @@ module.exports = () => {
         case 'team' || '-t':
             require('./cmds/team')(args);
             break;
+        case 'rov' || '-r':
+            require('./cmds/rov')(args);
+            break;
         case 'version' || '-v':
             require('./cmds/version')(args);
             break;
