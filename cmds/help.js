@@ -13,10 +13,14 @@ const menus = {
     `,
 
     team: `
-    rovotics team <options>
+    rovotics team <options> <arg>
 
-    --class, -c [year] ..... print only class of [year] 
-        Available Years: 2018
+    --class, -c [arg] ..... print class of [arg] 
+        Available Years: 2018, 2019, 2020, 2021
+    `,
+    rov: `
+    rovotics rov <rov>
+        Available ROVs: Mako
     `,
     banner(input) {
         figlet.text(input, {
@@ -35,10 +39,11 @@ const menus = {
 };
 
 module.exports = (args) => {
+    menus.banner('ROVOTICS');
+
     const subCmd = args._[0] === 'help'
         ? args._[1]
         : args._[0];
 
-    menus.banner('ROVOTICS');
     console.log(menus[subCmd] || menus.main)
 };
